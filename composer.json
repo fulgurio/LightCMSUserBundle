@@ -1,0 +1,26 @@
+{
+    "name": "fulgurio/light-cms-user-bundle",
+    "description": "Users module of LigthCMS bundle",
+    "type": "symfony-bundle",
+    "authors": [{
+            "name": "Fulgurio",
+            "homepage": "http://fulgurio.net"
+        }
+    ],
+    "keywords": [
+        "lightcms",
+        "user manager"
+    ],
+    "homepage": "http://github.com/fulgurio/LightCMSTinyMCEBundle",
+    "license": "GPL",
+    "require": {
+        "fulgurio/light-cms-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fulgurio\\LightCMSUserBundle": ""
+        }
+    },
+    "target-dir": "Fulgurio/LightCMSUserBundle",
+    "minimum-stability": "dev"
+}
