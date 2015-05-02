@@ -1,0 +1,20 @@
+security:
+    encoders:
+        Symfony\Component\Security\Core\User\UserInterface: plaintext
+    providers:
+        lightcms:
+            entity:
+                class: Fulgurio\LightCMSUserBundle\Entity\User
+                property: username
+    firewalls:
+        lightcms_secured_area:
+            form_login:
+                provider:   lightcms
+                login_path: /login
+                check_path: /login_check
+            logout:
+                path:       /logout
+                target:     /
+            anonymous:      ~
+    access_control:
+        - { path: ^/admin/, roles: ROLE_ADMIN }
