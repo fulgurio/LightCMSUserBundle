@@ -11,7 +11,7 @@
         "lightcms",
         "user manager"
     ],
-    "homepage": "http://github.com/fulgurio/LightCMSTinyMCEBundle",
+    "homepage": "http://github.com/fulgurio/LightCMSUserBundle",
     "license": "GPL",
     "require": {
         "fulgurio/light-cms-bundle": "dev-master"
