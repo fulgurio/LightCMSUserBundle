@@ -12,7 +12,7 @@
         "user manager"
     ],
     "homepage": "http://github.com/fulgurio/LightCMSUserBundle",
-    "license": "GPL",
+    "license": "GPL-1.0-or-later",
     "require": {
         "fulgurio/light-cms-bundle": "dev-master"
     },
